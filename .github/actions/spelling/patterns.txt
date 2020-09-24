@@ -1,0 +1,18 @@
+docker://[a-f0-9]{64}
+sha256:[a-f0-9]{64}
+# githubusercontent
+/[a-z-]+\.githubusercontent\.com/[-a-zA-Z0-9?&=_\/.]*
+# YouTube
+https?://(?:(?:www\.|)youtube\.com|youtu.be)/(?:embed/|)[-a-zA-Z0-9?&=]*
+# uuid:
+[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}
+# yaml fields
+observedGeneration: \w+
+password: \w+
+# canaryExecutionId
+01DS50WVHAWSTAQACJKB1VKDQB
+# deployments
+-[0-9a-fA-F]{7,10}(?:-\d+){0,2}-[0-9a-z]{5}(?:-\w+){0,2}(?:-[0-9a-z]{7,10}|)(?:-[0-9a-fA-F]{7,10}|)
+[Hh]ash: [0-9a-f]{9}
+"[a-f0-9]+"
+k8s
